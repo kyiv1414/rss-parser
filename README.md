@@ -4,11 +4,11 @@
 <ul>
 <li>clone project</li>
 <li>cd /rss-parser</li>
-<li>mv .env .env.example</li>
-<li>configure ports, mysql db, link for parsing rss</li>
-<li>./vendor/bin/sail up -d</li>
-<li>./vendor/bin/sail artisan parse:lifehacker</li>
-<li>run parser with command </li>
+<li>mv .env.example .env</li>
+<li>configure ports, mysql db, link for parsing rss in <b>.env</b></li>
+<li>compose with: <b>./vendor/bin/sail up -d</b></li>
+<li>run parser with command:  <b>./vendor/bin/sail artisan parse:lifehacker</b></li>
+
 </ul>
 
 <h2>About packages</h2>
